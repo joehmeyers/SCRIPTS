@@ -256,6 +256,7 @@ setup.kibana:
 
 # Load Balancers
  - Now I can attach my web -1, web-2 and web-3 to my backend loadbalancer: Gotham-BE-LB
+ - This will help distribute traffic evenly through my web 1,2,3
 
   
   
