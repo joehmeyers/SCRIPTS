@@ -22,6 +22,8 @@ I created a diagram that shows how my cloud network uses the jump-box, virtual m
 - After creating all VM's the network security groups will need to be set up, in this case mine is: jumpboxprovisioner-nsg
 - I created a public key which will be used to connect my network to the jump-box (see below for public key).
 
+Use command ssh-keygen to generate key.
+
 keyssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDAbtr+u4kIa82xsMxugbm7AGJYXKAH+zUmPS8kexEhCBbfoimB9OcDQNgAJylfqN17e0bV/4EhtvnwJ/C1ztKG9ngsdJMRzVZ02GjB2v7JnGJ4BOAB74crA29byXCM1jKRkZSM++rOV90OqY1037pWNx9BRUmCGIQxyi8Hj1dybumituy3AL/jfYxHuELfK9/8u5GY5yAm0p18e+cR/5EHiEerzjeyLEx63VfiRsyUB5w2p6Vby8Wsa16xOzwQN5QM0AjPPvIWIeN4fNgR4QvwARqufrqxgK+qi+Oe10ODXMwBbdA0y+tZUP+61lQ3UVdA2Ac+bdn0aLFWYwBZ28YtO77tgUrQ6Znz4Te/2AK8WhDy+ImErj7/haAgZl/qdvppFgt85l2oqBsUCTjg1awxjGVMXbh+43P2EdK4cDeGq/IPWGkC2e48+Uu3ydwY28jCRGz/4wLTW+OQsEZFb+CoqV7VTL/azBTXIdxH3QsQ/JuxiQTbd6Y7WB34Dl2yjUk= joehm@DESKTOP-NBEUETC
 
 - Using Bash and the ssh -i ~/azurekey azureuser@20.115.28.206 command I can now access my jump-box.
