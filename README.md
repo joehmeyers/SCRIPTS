@@ -268,5 +268,7 @@ setup.kibana:
  - Then run git commit -m "First Commit" to confirm items with a short sentence.
  - Lastly, run command git push to sync all the content specified.
  - Check your github repository to assure the files are acurate.
+
+# At this point all configurations, playbooks, VM's, containers, downloads and installations should be completed and working accordingly.
   
 
