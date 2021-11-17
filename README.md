@@ -253,7 +253,7 @@ setup.kibana:
          name: metricbeat
          enabled: yes
          
-    - Similar to filebeat you will go to Kibana and select docker and connect to the Module Status to check data connections.
+    - Similar to filebeat you will go to Kibana and select docker and connect to the Module Status to check data and connections.
     - At this point the filebeat and metricbeat are connected to Kibana which will allow you to see the traffic through graphs that are selected in Kibana. (see repository for diagrams)
 
 # Load Balancers
