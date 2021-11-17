@@ -15,10 +15,10 @@ I created a diagram that shows how my cloud network uses the jump-box, virtual m
 
 
 #Azure Portal Setup
-- First, I created my account in Azure.com
-- Second, I created my resource group in this case I called it: batmansknight, create a user name: azureuser
-- Third, I created my Virtual Machines which includes: jumpboxprovisioner, web-1, web-2, web-3, ELK-SERVER
-   - Each VM will have inbound security rules specific to their networks (SSH, deny-all).
+- Created my account in Azure.com
+- Created my resource group (go to resource group in search bar) in this case I called it: batmansknight, created a user name: azureuser
+- Created my Virtual Machines which includes: jumpboxprovisioner, web-1, web-2, web-3, ELK-SERVER
+- Each VM will have inbound security rules specific to their networks (SSH, deny-all).
 - After creating all VM's the network security groups will need to be set up, in this case mine is: jumpboxprovisioner-nsg
 - I created a public key which will be used to connect my network to the jump-box (see below for public key).
 
@@ -260,6 +260,13 @@ setup.kibana:
  - Now I can attach my web -1, web-2 and web-3 to my backend loadbalancer: Gotham-BE-LB
  - This will help distribute traffic evenly through my web 1,2,3
 
-  
+# Creating an account for GitHub and syncing to GitHub through my command line.
+ - Create an account at github.com, create a repository and commit a README.md file with a short sentence. Click on the Clone or Download button.
+ - Use command git clone https://github.com/joehmeyers/SCRIPTS.git
+       - Create a username and password
+ - Run command git add . to sync all items in specified directory.
+ - Then run git commit -m "First Commit" to confirm items with a short sentence.
+ - Lastly, run command git push to sync all the content specified.
+ - Check your github repository to assure the files are acurate.
   
 
